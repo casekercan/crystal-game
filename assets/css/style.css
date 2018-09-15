@@ -1,0 +1,76 @@
+body {
+    background-image: url("../images/teal-background.jpg");
+    background-size: cover;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    margin-left: 5px;
+}
+
+.title {
+    background-color: orange;
+    padding: 20px;
+    width: 300px;
+    margin: 15px;
+    font-size: 36px;
+    color: white;
+ }
+
+ .instructions {
+     background-color: peachpuff;
+     color: green;
+     font-size: 16px;
+     margin: 15px;
+     padding: 40px 10px 60px 10px;
+     max-width: 500px;
+ }
+
+ .randomNumber {
+     background-color: #77C586;
+     font-size: 36px;
+     color: black;
+     width:230px;
+     height: 130px;
+     margin: 0 15px 15px 15px;
+     padding:10px;
+ }
+
+ .score {
+    background-color: #80F9FA;
+    color: black;
+    font-size: 16px;
+    width: 80px;
+    height: 130px;
+    margin: 0 15px 15px 15px;
+    padding: 10px;
+ }
+
+ .gameSection {
+    display:flex;
+    flex-wrap: wrap;
+ }
+ 
+ .crystalImages{
+     margin: 0 15px 15px 15px;
+ }
+
+ .scoreHeader{
+     background-color: #4F9F94;
+     width: 275px;
+     color: white;
+     font-size: 16px;
+     margin: 0 15px 15px 15px;
+     padding: 10px;
+ }
+
+ .userNumberCount{
+     background-color: #4F9F94;
+     width: 275px;
+     height: 150px;
+     color: white;
+     font-size: 36px;
+     margin: 0 15px 15px 15px;
+     padding: 10px;
+ }
